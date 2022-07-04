@@ -100,18 +100,12 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 54.44%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -119,7 +113,17 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+ul.twitter,ul.youtube,ul.facebook{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -134,14 +138,7 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
-
-
-
-
-
- /*=================================
+/*=================================
   footer styling ends here
 =================================*/ 
 
